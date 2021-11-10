@@ -1,0 +1,178 @@
+body{
+    margin: 0 auto;
+    background-image: url("../Img/index/wallhaven-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 620px;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+    width: 1320px;
+    height: 610px;
+    border: 1px solid cornflowerblue;
+}
+
+.nav{
+    width: 1320px;
+    height: 60px;
+    background-color:rgba(176,196,222,0.5);
+    /*opacity: 0.75;*/
+
+}
+ul.ulnav{
+    margin: 0px;
+    padding: 0px 0 0 0 ;
+    list-style: none;
+}
+li.linav{
+    float: left;
+    width: 100px;
+    height: 50px;
+    padding: 0px;
+    margin: 0;
+    color: #eeeeee;
+    -webkit-font-smoothing:initial;
+    font: 14px "微软雅黑 Light";
+    text-align: center;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.nav a:hover{
+    color: white;
+    background-color:cornflowerblue;
+    display:block;
+    width:100px;
+    height:60px;
+}
+.list a:hover{
+    color: white;
+    background-color:cornflowerblue;
+    display:block;
+    width:50px;
+    height:35px;
+}
+.nav a{
+    text-decoration: none;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+}
+.logo{
+    width: 240px;
+    height: 120px;
+    background: url("../Img/index/baidu.png") no-repeat;
+    background-size:220px 100px;
+    position: absolute;
+    top:80px;
+    left: 540px;
+}
+@font-face {
+    font-family: pfont;
+    src: url("../font/PinyonScript-Regular.ttf");
+}
+
+.search{
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    top:200px;
+    left: 400px;
+    line-height: 40px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 5px solid #4e6ef2;
+}
+/*提示词颜色*/
+::-webkit-input-placeholder { color:cornflowerblue; }
+::-moz-placeholder { color:cornflowerblue; } /* firefox 19+ */
+:-ms-input-placeholder { color:cornflowerblue; } /* ie */
+input:-moz-placeholder { color:cornflowerblue; }
+[type="text"]{
+    width: 380px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    border: none;
+    outline: none;
+    background:none;
+    border-radius: 8px;
+}
+[type="submit"]{
+    margin: 0px;
+    padding: 0px;
+    width: 120px;
+    height: 40px;
+    float: left;
+    color: white;
+    font: 20px "微软雅黑 Light";
+    background-color: #4e6ef2;
+    border: none;
+    vertical-align:middle;
+}
+[type="submit"]:hover{
+    background-color: #404ea4;
+    color: black;
+}
+.le-nav{
+    width: 40px;
+    height: 400px;
+    position: relative;
+    top:100px;
+}
+.le-list{
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    position: absolute;
+    top:160px;
+    left:0px;
+    background-image: url("../Img/index/slide.png");
+    background-position: -85px 10px;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.list{
+    width: 80px;
+    height: 400px;
+    position: absolute;
+    background-color:rgba(176,196,222,0.5);
+    text-align: center;
+    top:-160px;
+    left: -80px;
+}
+ul.ullist{
+    margin: 0px;
+    padding: 15px 0px 0px 10px;
+}
+li.lilist{
+    margin: 5px ;
+    padding: 0px 5px 5px 5px;
+    list-style: none;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 微软雅黑体;
+    background-color:#203ac6;
+}
+.le-list:hover{
+    left: 80px;
+}
+.le-list:hover .le-nav{
+    left: 100px;
+}
+.list a{
+    text-decoration: none;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+}
