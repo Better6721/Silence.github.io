@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Silence</title>
+    <link rel="shortcut icon" href="images/dl.ico" type="image/x-ico">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/R1.css">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="topnav">
+    <input type="checkbox" id="togglebox">
+    <label class="menu" for="togglebox">
+        <img src="images/smartisan.png">
+    </label>
+    <ul>
+        <li><a href="index.html" id="top" >首页</a></li>
+        <li><a href="about.html" >品牌</a></li>
+        <li><a href="smartisan.html" >SmartisanOS</a></li>
+        <li><a href="community.html">社区</a></li>
+        <li><a href="shop.html" >商城</a></li>
+        <li><a href="shopcar.html" >购物车</a></li>
+        <li><button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">个人中心</button></li>
+
+    </ul>
+</div>
+    <div id="nav">
+        <ul>
+            <li>Smartisan</li>
+            <li>
+                <a class="active">R系列</a>
+                <div class="erji">
+                    <a href="R1.html">坚果R1</a>
+                    <a href="R2.html">坚果R2</a>
+                </div>
+            </li>
+            <li>
+                <a>T系列</a>
+                <div class="erji">
+                    <a href="T1.html">坚果T1</a>
+                    <a href="T2.html">坚果T2</a>
+                </div>
+            </li>
+            <li>
+                <a>坚果系列</a>
+                <div class="erji">
+                    <a href="lost.html">坚果</a>
+                    <a href="lost.html">坚果pro</a>
+                    <a href="lost.html">坚果pro2</a>
+                    <a href="lost.html">坚果3</a>
+                    <a href="lost.html">坚果pro3</a>
+                </div>
+            </li>
+            <li>
+                <a>手机配件</a>
+                <div class="erji">
+                    <a href="TWS.html">TWS</a>
+                    <a href="power.html">充电宝</a>
+                    <a href="muisc.html">蓝牙音响</a>
+                    <a href="TNTGO.html">TNTGO</a>
+                </div>
+            </li>
+            <li><a href="shop.html">商城</a></li>
+            <li><a href="service.html">服务</a></li>
+            <li>搜索</li>
+        </ul>
+    </div>
+<!--    //个人-->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <ul>
+            <li><a href="login.html"><i class="fa fa-user"></i>登录</a></li>
+            <li><a href="register.html"><i class="fa fa-user-plus"></i>注册</a></li>
+        </ul>
+    </div>
+</div>
+<!--    //个人-->
+    <div class="img" id="change">
+        <lable class="left" onclick="photo()"></lable>
+        <lable class="right" onclick="photo()"></lable>
+    </div>
+    <div class="content">
+        <h1>坚果R1</h1>
+        <h4>次世代旗舰</h4>
+        <hr>
+        <form action="">
+            <lable class="color">
+                颜色选择
+                <input type="button" onclick="white()">
+                <input type="button" onclick="black()">
+                <input type="button" onclick="blue()">
+            </lable>
+            <hr>
+            <lable class="rom">
+                容量选择
+                <input id="bt1" class="ack1" type="button" value="8+128GB" onclick="ack()">
+                <input id="bt2" class="ack1" type="button" value="8+256GB" onclick="ack()">
+                <input id="bt3" class="ack1" type="button" value="12+256GB" onclick="ack()">
+                <input id="bt4" class="ack1" type="button" value="12+512GB" onclick="ack()">
+            </lable>
+            <hr>
+            <lable>服务说明<span>*满88元包邮</span></lable>
+            <hr>
+            <label>*保修服务</label>
+            <span>
+
+            在您购买“坚果手机意外碎屏保修服务”后的有效期内，在非蓄意破坏的前提下，由于意外坠落、意外挤压或意外碰撞导致手机屏幕碎裂的，可以免费更换一次原装屏幕组件。您可在手机初次联网激活时或收货起 （以在先时间为准）3 日内访问 <a
+                    href="https://www.smartisan.com/">https://www.smartisan.com/</a>网站购买，或在本机 设置 > 关于本机 > 保修服务 中购买服务。服务细则参见。
+如您购买延长保修服务，在产品正常“三包”期结束后，将额外获得 1 年保修服务。
+            </span>
+        </form>
+    </div>
+
+    <div class="end">
+        <p>您已选择了 <b>坚果R1</b> <b id="price1">xxxx</b></p>
+        <lable>
+            <span id="col">经典黑色</span>
+            <span id="rom">xxxx</span>
+            <span id="price">xxxx</span>
+        </lable>
+
+        <lable><input type="button" onclick="alert('暂时无货！')" value="到货通知"></lable>
+    </div>
+    <div class="section">
+        <h2>机身尺寸和重量</h2>
+        <div class="n">
+            高度 = 153.3mm <br>
+            宽度 = 74.5mm<br>
+            厚度 = 7.9mm<br>
+            重量 = 170g
+        </div>
+        <div class="r1"></div>
+    </div>
+    <div class="section">
+        <h2>处理器平台</h2>
+        <div class="n">
+        Qualcomm® 骁龙™ 845 处理器
+            <br>
+        10nm 先进制程
+            <br>
+        单核主频可达 2.8GHz
+            <br>
+        Adreno™ 630 图形处理器，主频可达 700MHz
+            <br>
+        配备人工智能引擎（AI Engine）
+        </div>
+    </div>
+    <div class="section">
+        <h2>双卡支持与全网通</h2>
+        <div class="n">
+            双 Nano-SIM 卡槽，任意卡槽均可设置为主卡
+            <br>
+            双卡不限运营商，均可 4G 在网
+            <br>
+             支持移动、联通、电信 4G+/4G/3G/2G
+            <br>
+            支持双卡双待 VoLTE，支持中国移动、中国电信 VoLTE 高清语音业务
+            <br>
+            支持中国电信双卡 VoLTE 待机
+            <br>
+            注：需主副卡同时开通 VoLTE 业务，如副卡未开通 VoLTE 会出现无服务情况，主卡不受影响
+        </div>
+    </div>
+    <div class="section">
+        <h2>电池与快充</h2>
+        <div class="n">
+            典型值 3600mAh
+            <br>
+            支持 QuickCharge 4+ 18W 快速充电
+            <br>
+            支持 PD3.0 充电协议
+            <br>
+            支持快速无线充电，峰值输出功率可达 10W
+        </div>
+    </div>
+    <div class="section">
+        <h2>屏幕</h2>
+        <div class="n">
+        6.17 英寸 In-Cell 全高清显示屏
+            <br>
+        2242 x 1080 分辨率，403 ppi
+            <br>
+        康宁®第三代大猩猩®玻璃
+            <br>
+        1500:1 对比度（典型值）
+            <br>
+        96% NTSC 色域（典型值）
+            <br>
+        全覆盖 Display P3 广色域
+            <br>
+        支持阳光屏，强光下观看更清晰
+            <br>
+        支持护眼模式，减少屏幕蓝光
+            <br>
+        支持调节屏幕色温
+            <br>
+        支持压力感应触控
+        </div>
+    </div>
+    <div class="section">
+        <h2>按键和接口</h2>
+        <div class="r11"></div>
+    </div>
+    <div class="section">
+        <h2>内置应用</h2>
+        <div class="r12"></div>
+    </div>
+    <div class="footer">
+        Copyright©2020 smartisan.com 版权所有 | 锤子商城隐私政策 | 锤子商城用户协议 | 资质证照 京 ICP 备 19048576 号 - 1 | 京公网安备 11010802033469号
+        <select  size="1">
+            <option selected="selected">中文</option>
+            <option>English</option>
+        </select>
+        <img src="images/index/earth_grayy.png" alt="">
+    </div>
+<script  type="text/javascript" src="js/fixed/fixed.js"></script>
+<script  type="text/javascript" src="js/R1.js"></script>
+
+</body>
+</html>
