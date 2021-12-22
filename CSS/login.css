@@ -1,0 +1,234 @@
+*{
+	margin:0;
+	padding:0;
+}
+.login_section{
+    width: 100%;
+    height: 760px;
+    text-align:center;
+    background-color:rgba(255,255,255,0.6);
+}
+.login{
+    position:relative;
+    top:5%;
+    left:32.5%;
+    width:480px;
+    height:620px;
+	border-radius: 14px;
+	box-shadow:0 0 30px rgba(0,0,0,0.35);
+    border: 2px solid #dadada;
+}
+.logo_login{
+    position:relative;
+	left:35%;
+        top:5%;
+	width:120px;
+	height:20%;
+	background:url("../images/login/huanxicloud.png") no-repeat;
+}
+.login > h2{
+    position:relative;
+    top:10%;
+    font-weight:normal;
+}
+.input{
+    position:relative;
+    top:100px; 
+    left:40px;
+    width:400px;
+    height:40px;
+    margin-top:10px;
+    background: rgba(0,0,0,.03);
+    box-shadow: none;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.12);
+    color: rgba(0,0,0,0.25);
+    text-align:left;
+    font-weight:bold;
+
+}
+
+.cc{
+    position:relative;
+    line-height:40px;
+    font-size: 14px;
+    margin-left:14px;
+    color: rgba(0,0,0,0.25);
+}
+.c{
+    position:relative;
+    line-height:40px;
+    font-size: 14px;
+    left:250px;
+    margin:0;
+    color: rgba(0,0,0,0.25);
+}
+.phone{
+    position:relative;
+    line-height:40px;
+    font-size: 14px;
+    margin-left:14px;
+    color: rgba(0,0,0,0.25);
+}
+.input:hover span{
+    color: rgba(0,0,0,0.5);
+}
+.input [type="text"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 325px;
+    margin-left:10px;
+    background:none;
+}
+
+.input1 [type="text"]{
+    width: 370px;
+}
+[type="checkbox"]{
+    position: relative;
+    color: rgba(0,0,0,0.25);
+    top:110px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: none;
+    left: -36%;
+}
+.check{
+    margin: 0px;
+    position: absolute;
+    top:430px;
+    left: 10%;
+    font-size: 12px;
+    background:url("../images/login/check.png");
+    background-size: 24px;
+    background-position: -2px 20px;
+    border-radius: 50%;
+    color: rgba(0,0,0,0);
+    border: 1px solid  rgba(0,0,0,0.25);
+}
+:checked+.check:after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top:-1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:url("../images/login/check.png");
+    background-size: 24px;
+    background-position: -2px -2px;
+}
+.password{
+    position: absolute;
+    top:428px;
+    left: 18%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.register{
+    position: absolute;
+    top:428px;
+    left: 64%;
+}
+.forgot{
+    position: absolute;
+    top:428px;
+    left: 74%;
+}
+a:visited{
+    color: cornflowerblue;
+}
+a:hover{
+    color:black;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.input2{
+    width: 400px;
+    height: 60px;
+    border-radius: 12px;
+}
+.input2 [type="submit"]{
+    width: 400px;
+    height: 60px;
+    color: white;
+    font: 20px "微软雅黑 Light";
+    background-color: #4e6ef2;
+    border: none;
+    font-size: 22px;
+    border-radius: 12px;
+    font-weight: bold;
+    vertical-align:middle;
+}
+.end{
+    position: absolute;
+    left: 40px;
+    font-size: 14px;
+    top:540px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.35);
+}
+/*提示词颜色*/
+::-webkit-input-placeholder { color: rgba(0,0,0,0.25) }
+::-moz-placeholder { color: rgba(0,0,0,0.25) } /* firefox 19+ */
+:-ms-input-placeholder { color: rgba(0,0,0,0.25) } /* ie */
+input:-moz-placeholder { color: rgba(0,0,0,0.25) }
+.end  .fa{
+    font-size: 20px;
+    color: rgba(0,0,0,0.25);
+}
+
+.end  a{
+    margin-left: 12px;
+}
+.end .i1:hover{
+    color: lawngreen;
+}
+.end .i2:hover{
+    color: red;
+}
+.end .i3:hover{
+    color:cornflowerblue;
+}
+.end .i4:hover{
+    color:blue;
+}
+[type="submit"]:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+.tip{
+    border-top: 0.1px solid rgba(0,0,0,0.25);
+    position: absolute;
+    bottom: 2%;
+    padding-top: 10px;
+    left: 10%;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,0.25);;
+    width: 80%;
+}
+b{
+    margin: 2px;
+    color: cornflowerblue;
+}
+.footer{
+
+    position: absolute;
+    left: 38%;
+    bottom: -120px;
+    height: 24px;
+    line-height: 24px;
+    width: 340px;
+}
+.footer b{
+    font-weight: normal;
+}

@@ -1,0 +1,179 @@
+body,html{
+    overflow-x:hidden ;
+    background: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    width:30px;
+    position: absolute;
+    background: url("../images/slide.png");
+    background-position: -38px;
+    left: 10px;
+    top:360px;
+    display: none;
+    height: 40px;
+}
+.right{
+    width:30px;
+    position: absolute;
+    background: url("../images/slide.png");
+    background-position: -84px;
+    left: 600px;
+    top:360px;
+    display: none;
+    height: 40px;
+}
+.img{
+    width: 620px;
+    height: 500px;
+    margin: 40px;
+    background: url("../images/product/T1_black.jpg") no-repeat;
+    background-size: 90%;
+}
+.img:hover .left{
+    display: block;
+}
+.img:hover .right{
+    display: block;
+}
+.content{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 140px;
+    right: 20px;
+}
+.content h1{
+    margin-bottom: 10px;
+}
+.content h4{
+    color: grey;
+}
+span{
+    color: #b0b0b0;
+    letter-spacing: 1px;
+}
+a:visited{
+    color: cornflowerblue;
+}
+a{  color: cornflowerblue;
+    text-decoration: none;
+}
+hr{
+    margin: 20px 10px;
+    border: 1px solid  rgba(0,0,0,0.1);
+}
+
+.end{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom:0;
+    background: white;
+    z-index: 999;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+.end span{
+    margin-left: 400px;
+    line-height: 60px;
+}
+.end [type="button"]{
+    position: absolute;
+    top:10px;
+    right: 40px;
+    width:120px;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #ffcf02;
+    border: 2px solid #ffcf02;
+    background:#ffd32f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.color [type="button"]{
+    position: relative;
+    top:10px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px #b0b0b0;
+    border-radius: 50%;
+}
+.color [type="button"]:first-child{
+    background: white;
+}
+.color [type="button"]:last-child{
+    background: black;
+}
+
+.section{
+    width: 100%;
+    height:500px;
+    position: relative;
+    margin: 20px 0;
+}
+.s1 .content{
+    position: absolute;
+    right: 120px;
+    font-size: 18px;
+    height: 200px;
+    letter-spacing: 1px;
+    width: 100px;
+}
+.s1{
+    background: url("../images/product/T11.png") no-repeat;
+}
+.s2{
+    height: 600px;
+    background: url("../images/product/T12.png") no-repeat;
+    background-size: 20%;
+}
+.s2 h1{
+    font-size: 32px;
+    top:60px;
+    position: absolute;
+    left: 500px;
+}
+.s2 p{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 340px;
+    height: 30px;
+    left: 620px;
+    top:140px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: absolute;
+}
+.s3 h1{
+    font-size: 32px;
+    margin-left: 500px;
+    left: 500px;
+}
+.s3 p{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 340px;
+    height: 30px;
+    left: 620px;
+    top:140px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: absolute;
+}
+.s3{
+    background: url("../images/product/T13.png") no-repeat;
+    background-size: 30% ;
+}
+.s3 p{
+    width: 400px;
+}
+.footer{
+    margin-bottom: 60px;
+}
